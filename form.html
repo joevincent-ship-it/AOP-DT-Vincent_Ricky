@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran CCA</title>
+  <link rel="icon" type="image/png" href="https://www.santa-laurensia.com/sutera/wp-content/uploads/2024/10/logo-las-286x300-1.png">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body class="v-body">
+  <main class="v-wrapper">
+    <header class="v-brand">
+      <img class="v-logo" src="https://www.santa-laurensia.com/sutera/wp-content/uploads/2024/10/logo-las-286x300-1.png" alt="Logo sekolah">
+      <div class="v-brand-teks">
+        <h1 class="v-judul">Pendaftaran CCA</h1>
+        <p class="v-subjudul">Co-Curricular Activities</p>
+      </div>
+    </header>
+
+    <form class="v-form" action="cv1.html" method="get">
+      <div class="v-field">
+        <label class="v-label" for="nama">Nama</label>
+        <input class="v-input" type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+      </div>
+
+      <div class="v-field">
+        <label class="v-label" for="nis">NIS (Nomor Induk Sekolah)</label>
+        <input class="v-input" type="text" id="nis" name="nis" inputmode="numeric" pattern="[0-9]+" placeholder="Masukkan NIS" required>
+      </div>
+
+      <div class="v-field">
+        <label class="v-label" for="kelas">Kelas</label>
+        <input class="v-input" type="text" id="kelas" name="kelas" placeholder="Contoh: 11 IPA 1" required>
+      </div>
+
+      <div class="v-field">
+        <label class="v-label" for="eskul">Pilihan Eskul</label>
+        <select class="v-input" id="eskul" name="eskul" required>
+          <option value="">-- Pilih eskul --</option>
+          <option value="Basket">Basket</option>
+          <option value="Futsal">Futsal</option>
+          <option value="Voli">Voli</option>
+          <option value="Paduan Suara">Paduan Suara</option>
+          <option value="Robotik">Robotik</option>
+          <option value="Jurnalistik">Jurnalistik</option>
+        </select>
+      </div>
+
+      <div class="v-field">
+        <label class="v-label" for="alasan">Alasan</label>
+        <textarea class="v-input v-textarea" id="alasan" name="alasan" rows="4" placeholder="Tuliskan alasan memilih eskul ini" required></textarea>
+      </div>
+
+      <button class="v-tombol" type="submit">Simpan</button>
+    </form>
+
+    <p class="v-catatan">Tugas Informatika Kelas 11</p>
+  </main>
+</body>
+</html>

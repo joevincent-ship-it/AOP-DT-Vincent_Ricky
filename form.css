@@ -1,0 +1,118 @@
+.v-body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  background: #f5f3ec;
+  color: #3f4a52;
+  font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+}
+
+.v-wrapper {
+  width: 100%;
+  max-width: 520px;
+  background: #ffffff;
+  border: 2px solid #0f7b6c;
+  border-radius: 18px;
+  padding: 28px 32px 22px;
+  box-sizing: border-box;
+  box-shadow: 0 8px 24px rgba(15, 123, 108, 0.12);
+}
+
+.v-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 18px;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed #cfe5df;
+}
+
+.v-logo {
+  width: 72px;
+  height: auto;
+}
+
+.v-judul {
+  margin: 0;
+  font-size: 26px;
+  color: #0f7b6c;
+}
+
+.v-subjudul {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #6b7780;
+}
+
+.v-field {
+  margin-bottom: 16px;
+}
+
+.v-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f7b6c;
+}
+
+.v-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 14px;
+  font-family: inherit;
+  font-size: 15px;
+  color: #3f4a52;
+  background: #f7f5ee;
+  border: 1.5px solid #d6d2c4;
+  border-radius: 10px;
+}
+
+.v-input:focus {
+  outline: none;
+  border-color: #0f7b6c;
+  background: #ffffff;
+}
+
+.v-textarea {
+  resize: vertical;
+}
+
+.v-tombol {
+  width: 100%;
+  margin-top: 6px;
+  padding: 13px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #1f9a82;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.v-tombol:hover {
+  background: #17836e;
+}
+
+.v-catatan {
+  margin: 18px 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: #8a949b;
+}
+
+@media (max-width: 480px) {
+  .v-wrapper {
+    padding: 22px 18px 18px;
+  }
+
+  .v-judul {
+    font-size: 22px;
+  }
+}
